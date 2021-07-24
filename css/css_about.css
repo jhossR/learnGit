@@ -1,0 +1,18 @@
+body{
+    font-family: monospace;
+    font-size: 14px;   
+}
+
+.my_black{
+    color: black;
+    font-weight: bold;
+}
+
+/* */
+.title_01{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family:monospace;
+    background-color:blanchedalmond;
+    color:crimson;
+}
