@@ -16,3 +16,9 @@ body{
     background-color:blanchedalmond;
     color:crimson;
 }
+
+.big_l{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}

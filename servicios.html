@@ -18,28 +18,33 @@
 <body>
     <div class="my_nav"></div>
 
-    <h1 class="title_01">About me</h1>
+    <h1 class="title_01">Comandos GitHub</h1>
     <div class="container">
         <p class="text-center">
-            Mi nombre es Jose y no sé que más colocar :)
-            <br />
-            <span class="my_black">Hacer un MERGE en caso de que existan problemas es fácil.</span>
+            Primero se le indica a GIT que vamos a agregar un origen remoto de nuestros archivos:
+            <br>
+            <span class="big_l">git remote add origin https://github.com/[usuario_git]/[repositorio].git</span>
+            <br>
+            <hr>
         </p>
-        <br />
-        <hr />
         <div class="one_section">
             <div class="row text-center">
-                <section class="col-md-4 big_l">
-                    <p>Git checkout master</p>
+                <section class="col-md-6">
+                    <p class="big_l">git push origin main</p>
+                    <br>
+                    <p>Para envíar <span class="my_black">(PUSH:EMPUJAR)</span> mis archivos locales, al remoto, se hace
+                        por medio de ese comando.</p>
+
                 </section>
-                <section class="col-md-4 big_l">
-                    <p>Git merge otro_branch</p>
-                </section>
-                <section class="col-md-4 big_l">
-                    <p>Git commit -am "si existe un problema se corrige"</p>
+                <section class="col-md-6">
+                    <p class="big_l">git pull origin main</p>
+                    <br>
+                    <p>Pero si eso no funciona, es porque primero se tiene que traer <span
+                            class="my_black">(PULL:JALAR)</span> lo que está en el remoto al local.</p>
                 </section>
             </div>
         </div>
+        <hr>
     </div>
 
     <script>
