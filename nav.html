@@ -1,25 +1,35 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="#">Git & GitHub</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+            aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Iniciando Git
-                        <span class="sr-only"></span>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Hola Git
                     </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/index.html">Iniciando Git</a></li>
+                        <li><a class="dropdown-item" href="/part1/about.html">Git Merge</a></li>
+                        <li><a class="dropdown-item" href="/part1/servicios.html">GitHub</a></li>
+                        <li><a class="dropdown-item" href="/part1/tags_and.html">Tags y Versiones</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Git Merge</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">GitHub</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tags_and.html">Tags y Versiones</a>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Más Nivel
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/part2/flujo_github.html">Iniciando Git</a></li>
+                        <li><a class="dropdown-item" href="#">...</a></li>
+                        <li><a class="dropdown-item" href="#">...</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
